@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3eb46ca3c3785a1033925283e40131fb" label="Food Consumption" max_length="40" name="x_snc_shiet_food_consumption" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="FoodItem" mandatory="true" max_length="40" name="fooditem" type="string"/>
+        <element label="Consumed by" max_length="32" name="consumed_by" reference="sys_user" type="reference"/>
+        <element label="Calories" max_length="40" name="calories" type="string"/>
+        <element label="Nutrients" max_length="8000" name="nutrients" type="html"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Consumed" max_length="40" name="consumed" type="glide_date_time"/>
+        <index name="index">
+            <element name="consumed_by"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

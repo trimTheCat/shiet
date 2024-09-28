@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02914d67c3f85a1033925283e40131ef" extends="sys_import_set_row" label="Food Consumption API" max_length="40" name="x_snc_shiet_food_consumption_api" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_calories" label="Calories" max_length="40" name="u_calories" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_consumed_by" label="Consumed by" max_length="40" name="u_consumed_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_consumed" label="Consumed" max_length="40" name="u_consumed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_nutrients" label="Nutrients" max_length="40" name="u_nutrients" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_fooditem" label="Fooditem" max_length="40" name="u_fooditem" type="string"/>
+    </element>
+</database>

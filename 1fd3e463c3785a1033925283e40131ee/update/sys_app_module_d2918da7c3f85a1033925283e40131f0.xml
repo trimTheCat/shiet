@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Web Services">18f23e670a0a0b2400c55b122be52373</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>User customized web service</hint>
+        <homepage/>
+        <image>images/icons/web_services_mapped.gifx</image>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Food Consumption API</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1050</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>v_ws_editor.do?sysparm_query=name=x_snc_shiet_food_consumption_api</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+        <sys_created_on>2024-09-28 09:11:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2918da7c3f85a1033925283e40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Food Consumption API</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+        <sys_update_name>sys_app_module_d2918da7c3f85a1033925283e40131f0</sys_update_name>
+        <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+        <sys_updated_on>2024-09-28 09:11:15</sys_updated_on>
+        <timeline_page/>
+        <title>Food Consumption API</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
