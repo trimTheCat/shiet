@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Food Consumption API">ee91cda7c3f85a1033925283e40131ce</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    var currentUser = gs.getUserID();
+    var today = new GlideDateTime();
+	var consumedCalories = parseInt(source.u_calories);
+
+    var intakeGR = new GlideRecord('x_snc_shiet_daily_intake');
+    intakeGR.addQuery('user', currentUser);
+    intakeGR.addQuery('date', today);
+    intakeGR.query();
+
+    if (intakeGR.next()) {
+        // Record found, set it as the value of target.daily_intake
+        var todalDailyCaloriesLimit = parseInt(intakeGR.user.x_snc_shiet_daily_calories_goal);
+
+        target.daily_intake = intakeGR.sys_id;
+        intakeGR.total_daily_calories = intakeGR.total_daily_calories + consumedCalories;
+		
+        if (intakeGR.total_daily_calories > todalDailyCaloriesLimit) {
+            intakeGR.breached = true;
+        }
+        intakeGR.setWorkflow(false);
+        intakeGR.update();
+    } else {
+        // No record found, create a new one and set the target accordingly
+        intakeGR.initialize();
+        intakeGR.user = currentUser;
+        intakeGR.date = today;
+		intakeGR.total_daily_calories = consumedCalories;
+        intakeGR.insert();
+        target.daily_intake = intakeGR.sys_id;
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+        <sys_created_on>2024-09-28 16:39:53</sys_created_on>
+        <sys_id>621862e7c3f09a1033925283e40131ea</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+        <sys_update_name>sys_transform_script_621862e7c3f09a1033925283e40131ea</sys_update_name>
+        <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+        <sys_updated_on>2024-09-28 17:24:12</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
