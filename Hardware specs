@@ -1,0 +1,22 @@
+1. Technical Hardware Specifications
+Components to Order from Piitel.co.il:
+* Raspberry Pi 5: The main processing unit.
+* ESP32-CAM: A WiFi camera module for capturing images of the food.
+* Digital Scale: To measure the weight of the food.
+* LED Light Bulb: To indicate when the daily calorie goal is breached.
+* Power Supply: For the Raspberry Pi and other components.
+* SD Card: For the Raspberry Pi’s operating system and storage.
+* Breadboard and Jumper Wires: For connecting the components.
+Alternatives:
+* Raspberry Pi 5: Available on other sites like Amazon or Adafruit.
+* ESP32-CAM: Also available on sites like AliExpress or SparkFun.
+* Digital Scale: Can be found on Amazon or eBay.
+* LED Light Bulb: Available at local electronics stores or online retailers like Amazon.
+* Power Supply: Can be sourced from Amazon or other electronics suppliers.
+* SD Card: Widely available at electronics stores and online retailers.
+* Breadboard and Jumper Wires: Available at electronics stores or online retailers like Amazon.
+2. Technical Software Specifications
+Software Requirements:
+* Operating System: Raspberry Pi OS
+* Programming Languages: JavaScript (Node.js) and Python
+* Libraries: OpenCV for image processing, TensorFlow Lite for AI model, Flask for web server (if using Python), and ServiceNow API for data storage.
