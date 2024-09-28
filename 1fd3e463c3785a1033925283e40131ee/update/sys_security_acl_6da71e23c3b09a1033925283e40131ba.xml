@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_snc_shiet_daily_intake</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+        <sys_created_on>2024-09-28 15:27:14</sys_created_on>
+        <sys_id>6da71e23c3b09a1033925283e40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_shiet_daily_intake</sys_name>
+        <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+        <sys_update_name>sys_security_acl_6da71e23c3b09a1033925283e40131ba</sys_update_name>
+        <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:27:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

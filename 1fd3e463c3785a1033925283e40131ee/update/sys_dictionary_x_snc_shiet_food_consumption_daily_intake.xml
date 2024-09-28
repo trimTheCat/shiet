@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="fooditem" table="x_snc_shiet_food_consumption">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="daily_intake" table="x_snc_shiet_food_consumption">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Food Item</column_label>
+        <column_label>Daily intake</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>fooditem</element>
+        <element>daily_intake</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
         <name>x_snc_shiet_food_consumption</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_snc_shiet_daily_intake">x_snc_shiet_daily_intake</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
-        <sys_created_on>2024-09-28 07:09:13</sys_created_on>
-        <sys_name>Food Item</sys_name>
+        <sys_created_on>2024-09-28 15:43:57</sys_created_on>
+        <sys_name>Daily intake</sys_name>
         <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
         <sys_policy/>
         <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_shiet_food_consumption_fooditem</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_shiet_food_consumption_daily_intake</sys_update_name>
         <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
-        <sys_updated_on>2024-09-28 15:43:58</sys_updated_on>
+        <sys_updated_on>2024-09-28 15:53:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
