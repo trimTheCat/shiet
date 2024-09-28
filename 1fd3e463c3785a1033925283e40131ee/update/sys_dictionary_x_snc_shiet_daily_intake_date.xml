@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="fooditem" table="x_snc_shiet_food_consumption">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="date" table="x_snc_shiet_daily_intake">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Food Item</column_label>
+        <column_label>Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +21,21 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>fooditem</element>
+        <element>date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <internal_type display_value="">glide_date</internal_type>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_snc_shiet_food_consumption</name>
+        <name>x_snc_shiet_daily_intake</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
-        <sys_created_on>2024-09-28 07:09:13</sys_created_on>
-        <sys_name>Food Item</sys_name>
+        <sys_created_on>2024-09-28 15:28:35</sys_created_on>
+        <sys_name>Date</sys_name>
         <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
         <sys_policy/>
         <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_shiet_food_consumption_fooditem</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_shiet_daily_intake_date</sys_update_name>
         <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
-        <sys_updated_on>2024-09-28 15:43:58</sys_updated_on>
+        <sys_updated_on>2024-09-28 15:53:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

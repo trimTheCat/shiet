@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+        <sys_created_on>2024-09-28 15:27:14</sys_created_on>
+        <sys_id>a1a71e23c3b09a1033925283e40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_shiet_daily_intake.x_snc_shiet.shiet_user</sys_name>
+        <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+        <sys_security_acl display_value="x_snc_shiet_daily_intake">2da7da23c3b09a1033925283e40131ce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a1a71e23c3b09a1033925283e40131b5</sys_update_name>
+        <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:27:14</sys_updated_on>
+        <sys_user_role display_value="x_snc_shiet.shiet_user" name="x_snc_shiet.shiet_user">53d32863c3785a1033925283e4013160</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

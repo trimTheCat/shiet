@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9abb5ea7c3b09a1033925283e40131bd" sys_domain="global" table="x_snc_shiet_food_consumption" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9abb5ea7c3b09a1033925283e40131c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_shiet_food_consumption" name="x_snc_shiet_food_consumption" sys_domain="global" view="Default view">9abb5ea7c3b09a1033925283e40131bd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_shiet_food_consumption" sys_domain="global" view="Default view">e7b46863c3785a1033925283e4013108</sys_ui_section>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96bb5ea7c3b09a1033925283e40131c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_shiet_food_consumption" name="x_snc_shiet_food_consumption" sys_domain="global" view="Default view">9abb5ea7c3b09a1033925283e40131bd</sys_ui_form>
+            <sys_ui_section caption="Nutrients" display_value="Nutrients" name="x_snc_shiet_food_consumption" sys_domain="global" view="Default view">1abb5ea7c3b09a1033925283e40131bc</sys_ui_section>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_shiet_food_consumption</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9abb5ea7c3b09a1033925283e40131bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_shiet_food_consumption</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9abb5ea7c3b09a1033925283e40131bd</sys_update_name>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

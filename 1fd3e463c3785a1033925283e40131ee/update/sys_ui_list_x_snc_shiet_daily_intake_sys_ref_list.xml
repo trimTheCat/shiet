@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_shiet_daily_intake" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date</element>
+            <list_id display_value="x_snc_shiet_daily_intake" element="NULL" name="x_snc_shiet_daily_intake" parent="NULL" relationship="NULL" sys_domain="global" view="f4fde1601b10111033acec25bd4bcb65">08fbdea7c3b09a1033925283e40131e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:58</sys_created_on>
+            <sys_id>44fbdea7c3b09a1033925283e40131e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="x_snc_shiet_daily_intake" element="NULL" name="x_snc_shiet_daily_intake" parent="NULL" relationship="NULL" sys_domain="global" view="f4fde1601b10111033acec25bd4bcb65">08fbdea7c3b09a1033925283e40131e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:58</sys_created_on>
+            <sys_id>48fbdea7c3b09a1033925283e40131e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_daily_calories</element>
+            <list_id display_value="x_snc_shiet_daily_intake" element="NULL" name="x_snc_shiet_daily_intake" parent="NULL" relationship="NULL" sys_domain="global" view="f4fde1601b10111033acec25bd4bcb65">08fbdea7c3b09a1033925283e40131e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:58</sys_created_on>
+            <sys_id>4cfbdea7c3b09a1033925283e40131e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>breached</element>
+            <list_id display_value="x_snc_shiet_daily_intake" element="NULL" name="x_snc_shiet_daily_intake" parent="NULL" relationship="NULL" sys_domain="global" view="f4fde1601b10111033acec25bd4bcb65">08fbdea7c3b09a1033925283e40131e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:58</sys_created_on>
+            <sys_id>40fbdea7c3b09a1033925283e40131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_shiet_daily_intake</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>dan.belostotsky@servicenow.com</sys_created_by>
+            <sys_created_on>2024-09-28 15:45:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08fbdea7c3b09a1033925283e40131e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_shiet_daily_intake</sys_name>
+            <sys_package display_value="ShiET" source="x_snc_shiet">1fd3e463c3785a1033925283e40131ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ShiET">1fd3e463c3785a1033925283e40131ee</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_shiet_daily_intake_sys_ref_list</sys_update_name>
+            <sys_updated_by>dan.belostotsky@servicenow.com</sys_updated_by>
+            <sys_updated_on>2024-09-28 15:45:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">f4fde1601b10111033acec25bd4bcb65</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
